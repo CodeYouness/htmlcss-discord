@@ -67,8 +67,8 @@ p {
     text-align: left;
 }
 
-main p,
-main h1 {
+.testo p,
+.testo h1 {
     max-width: 50%;
 }
 
@@ -169,4 +169,33 @@ hr {
 
 #last_section * {
     align-self: center;
+}
+
+h2 {
+    padding: 2.2rem;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#last_section h1,
+#last_section p {
+    width: 80%;
+}
+
+#last_section button {
+    margin-bottom: 5rem;
+}
+
+#item4 {
+    width: 1200px;
+}
+
+#language_flag {
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+section>span {
+    margin: 20rem 0.5rem;
 }
