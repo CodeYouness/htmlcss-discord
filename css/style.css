@@ -196,6 +196,10 @@ h2 {
     vertical-align: middle;
 }
 
+.language_selection {
+    padding-bottom: 16px;
+}
+
 section>span {
     padding-right: 1rem;
 }
