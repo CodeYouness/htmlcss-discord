@@ -13,6 +13,10 @@ header {
     background-repeat: no-repeat;
 }
 
+p {
+    line-height: 2rem;
+}
+
 /* lista nav-bar */
 .nav-bar {
     background-color: #255ee9;
@@ -48,14 +52,26 @@ p,
 }
 
 h1 {
-    margin: 10rem 0 1rem;
+    margin: 6.3rem 0 1rem;
     word-spacing: 3px;
     font-size: 3rem;
 }
 
+
+
 p {
     word-spacing: 2px;
     font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+.left-align {
+    text-align: left;
+}
+
+main p,
+main h1 {
+    max-width: 50%;
 }
 
 .jumbotron_header>button {
@@ -63,7 +79,7 @@ p {
 }
 
 .white,
-.nav-bar,
+header,
 #black-button,
 .purple_button,
 footer {
@@ -75,7 +91,7 @@ footer {
 .nav-bar,
 .upper_footer,
 .footer_link,
-body>section {
+main>section {
     display: flex;
 }
 
@@ -86,8 +102,8 @@ body>section {
 /* Grafica buttons */
 button {
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
     font-size: 1rem;
 }
 
