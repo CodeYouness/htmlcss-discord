@@ -89,7 +89,8 @@ footer {
 .nav-bar,
 .upper_footer,
 .footer_link,
-main>section {
+.container,
+#last_section {
     display: flex;
 }
 
@@ -155,10 +156,17 @@ hr {
     margin: 2rem 0 1rem;
 }
 
-.container {
+.testo {
     width: 40%;
+    padding: 2rem;
 }
 
 .img {
-    width: 60%
+    width: 60%;
+    padding: 2rem;
+    text-align: right;
+}
+
+#last_section * {
+    align-self: center;
 }
